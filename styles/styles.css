@@ -1,6 +1,38 @@
 body {
   font-family: "Manrope", sans-serif;
   width: 100%;
+  font-weight: 400;
+}
+
+.nav-section {
+  padding: 33px 0 70px;
+  min-width: 100%;
+}
+
+.logo {
+  width: 127px;
+  height: 22.82px;
+}
+
+.nav {
+  vertical-align: top;
+  float: right;
+}
+
+.nav__link {
+  margin-left: 57px;
+  line-height: 25px;
+  font-size: 18px;
+  color: #121212;
+  text-decoration: none;
+  letter-spacing: -0.03em;
+}
+
+.nav__link:hover,
+.mail__text:hover,
+.phone-number__text:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .container {
@@ -12,11 +44,10 @@ body {
 h1 {
   margin-bottom: 30px;
   width: 956px;
-  font-weight: 400;
   font-size: 60px;
   line-height: 60px;
-  letter-spacing: -0.03em;
   text-align: left;
+  letter-spacing: -0.03em;
 }
 
 .interior {
@@ -24,7 +55,7 @@ h1 {
   margin-bottom: 150px;
   width: 1150px;
   height: 500px;
-  background-image: url("../resources/interior-1.png");
+  background-image: url("/resources/interior-1.png");
 }
 
 .image-text {
@@ -33,11 +64,10 @@ h1 {
   bottom: 40px;
   width: 430px;
   height: 81px;
-  font-weight: 400;
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: -0.03em;
   color: #ffffff;
+  letter-spacing: -0.03em;
 }
 
 .based {
@@ -48,21 +78,19 @@ h1 {
 
 h2 {
   margin-bottom: 30px;
-  font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: -0.03em;
   text-align: left;
+  letter-spacing: -0.03em;
 }
 
 .based__text {
   width: 1048px;
   height: 366px;
-  font-weight: 400;
   font-size: 45px;
   line-height: 61px;
-  letter-spacing: -0.03em;
   text-align: left;
+  letter-spacing: -0.03em;
 }
 
 .btn {
@@ -71,12 +99,11 @@ h2 {
   padding: 20px 40px;
   border-radius: 5px;
   background-color: #ad1818;
-  font-weight: 400;
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: -0.03em;
   text-decoration: none;
   color: white;
+  letter-spacing: -0.03em;
 }
 
 .progects {
@@ -99,21 +126,17 @@ h2 {
 
 h3 {
   margin-bottom: 15px;
-  font-weight: 400;
   font-size: 30px;
-  line-height: 41px;
+  line-height: 38px;
   letter-spacing: -0.03em;
 }
 
 .more {
-  width: 127px;
-  height: 27px;
-  font-weight: 400;
   font-size: 20px;
-  line-height: 27px;
-  letter-spacing: -0.03em;
+  line-height: 29px;
   text-decoration: none;
   color: #ad1818;
+  letter-spacing: -0.03em;
 }
 
 .progect-btn {
@@ -122,18 +145,21 @@ h3 {
   display: block;
   border: 1px solid #ad1818;
   border-radius: 5px;
-  font-weight: 400;
   font-size: 30px;
   line-height: 153px;
-  letter-spacing: -0.03em;
   text-align: center;
   text-decoration: none;
   color: #ad1818;
+  letter-spacing: -0.03em;
 }
 
 .progect-btn:hover {
   color: #ffffff;
   background-color: #ad1818;
+}
+
+.services {
+  background: #121212;
 }
 
 .box-wrapper {
@@ -142,19 +168,16 @@ h3 {
   width: 1400px;
   height: 1844px;
   padding: 210px 125px 0px 125px;
-
-  background: #121212;
 }
 
 h4 {
   position: absolute;
   top: 151px;
   left: 127px;
-  font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: -0.03em;
   color: #ffffff;
+  letter-spacing: -0.03em;
 }
 
 .box {
@@ -172,12 +195,120 @@ h4 {
 }
 
 .label__text {
-  font-weight: 400;
   font-size: 30px;
-  line-height: 41px;
+  line-height: 38px;
   color: #ffffff;
+  letter-spacing: -0.025em;
 }
 
 .label:nth-last-child(1) {
   margin-bottom: 150px;
+}
+
+.apartment-project {
+  min-width: 100%;
+  background-image: url(/resources/bed.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.apartment {
+  width: 1400px;
+  height: 717px;
+  position: relative;
+  margin: 0 auto;
+}
+.apartment__text {
+  position: absolute;
+  bottom: 45px;
+  width: 443px;
+  height: 82px;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+.contacts {
+  height: 553px;
+}
+
+.img-mobail {
+  margin-top: 150px;
+  margin-left: -5px;
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+}
+
+.container-contacts {
+  width: 473px;
+  height: 217px;
+}
+
+.contacts__text {
+  padding-top: 9px;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+
+.phone-number {
+  padding-top: 32px;
+}
+
+.phone-number__text {
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.016em;
+  color: #121212;
+  text-decoration: none;
+}
+
+.mail {
+  padding-top: 30px;
+}
+
+.mail__text {
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #121212;
+  text-decoration: none;
+}
+
+.footer {
+  padding: 60px 0 30px;
+  background: #121212;
+}
+
+.footer-menu {
+  text-align: center;
+  padding-bottom: 87px;
+}
+
+.footer-menu__link {
+  position: relative;
+  left: 20px;
+  margin-right: 53px;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-menu__link:hover {
+  opacity: 0.5;
+}
+
+.footer__text {
+  text-align: center;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  opacity: 0.5;
 }
