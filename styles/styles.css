@@ -55,7 +55,7 @@ h1 {
   margin-bottom: 150px;
   width: 1150px;
   height: 500px;
-  background-image: url("/resources/interior-1.png");
+  background-image: url("resources/interior-1.png");
 }
 
 .image-text {
@@ -207,7 +207,7 @@ h4 {
 
 .apartment-project {
   min-width: 100%;
-  background-image: url(/resources/bed.png);
+  background-image: url(resources/bed.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
