@@ -210,7 +210,7 @@ h4 {
   background-image: url(../resources/bed.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50%;
+  background-position: 0% 100%;
 }
 
 .apartment {
