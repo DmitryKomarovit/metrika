@@ -1,0 +1,87 @@
+@import "/styles/header.css";
+@import "/styles/intro.css";
+@import "/styles/footer.css";
+@import "/styles/projects.css";
+@import "/styles/services.css";
+@import "/styles/apartment.css";
+@import "/styles/contacts.css";
+@import "/styles/about.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+a,
+p,
+div {
+  letter-spacing: -0.03em;
+}
+
+.main {
+  margin-top: 70px;
+}
+
+.container {
+  margin: 0px auto;
+  max-width: 1150px;
+}
+
+section {
+  margin-bottom: 150px;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 60px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 38px;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding-left: 17px;
+    padding-right: 15px;
+  }
+
+  section {
+    margin-bottom: 120px;
+  }
+
+  h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 13px;
+  }
+  section {
+    margin-bottom: 80px;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 31.62px;
+  }
+}

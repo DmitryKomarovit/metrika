@@ -1,0 +1,29 @@
+.header-iner {
+  padding: 33px 0 70px;
+  min-width: 100%;
+}
+
+.logo {
+  width: 127px;
+  height: 22.82px;
+}
+
+.nav {
+  vertical-align: top;
+  float: right;
+}
+
+.nav__link {
+  margin-left: 57px;
+  line-height: 25px;
+  font-size: 18px;
+  color: #121212;
+  text-decoration: none;
+}
+
+.nav__link:hover,
+.mail__text:hover,
+.phone-number__text:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}

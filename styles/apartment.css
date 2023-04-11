@@ -1,0 +1,23 @@
+.apartment-project {
+  min-width: 100%;
+  background-image: url(../resources/bed.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.apartment {
+  width: 1400px;
+  height: 717px;
+  position: relative;
+  margin: 0 auto;
+}
+.apartment__text {
+  position: absolute;
+  bottom: 45px;
+  width: 443px;
+  height: 82px;
+  font-size: 30px;
+  line-height: 41px;
+  color: #ffffff;
+}

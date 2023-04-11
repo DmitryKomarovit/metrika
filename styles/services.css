@@ -1,0 +1,35 @@
+.services {
+  background: #121212;
+}
+
+.services-wrapper {
+  margin: 0px auto;
+  width: 1400px;
+  height: 1844px;
+  padding: 210px 125px 0px 125px;
+}
+
+.services-box {
+  height: 100%;
+}
+
+.service-label {
+  margin-bottom: 60px;
+  height: 326px;
+}
+
+.service-label__image {
+  margin-bottom: 15px;
+  height: 270px;
+}
+
+.service-label__text {
+  font-size: 30px;
+  line-height: 38px;
+  color: #ffffff;
+  letter-spacing: -0.025em;
+}
+
+.service-label:nth-last-child(1) {
+  margin-bottom: 150px;
+}

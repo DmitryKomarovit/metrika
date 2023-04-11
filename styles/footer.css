@@ -1,0 +1,31 @@
+.footer {
+  padding: 60px 0 30px;
+  background: #121212;
+}
+
+.footer-menu {
+  text-align: center;
+  padding-bottom: 87px;
+}
+
+.footer-menu__link {
+  position: relative;
+  left: 20px;
+  margin-right: 53px;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-menu__link:hover {
+  opacity: 0.5;
+}
+
+.footer__text {
+  text-align: center;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  opacity: 0.5;
+}
