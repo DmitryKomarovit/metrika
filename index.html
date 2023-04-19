@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Сайт</title>
-    <link rel="icon" href="resources/Метрика-logo.png" type="image/png" />
+    <link rel="icon" href="/resources/Метрика-logo.png" type="image/png" />
 
     <link rel="stylesheet" href="styles/reset.css" />
 
@@ -35,9 +35,9 @@
     </header>
   -->
     <main class="main">
-      <div class="container">
-        <div class="main-iner">
-          <section>
+      <div class="main-iner">
+        <section>
+          <div class="container">
             <h1 class="intro__text">
               Современные и стильные интерьеры для комфортной жизни
             </h1>
@@ -47,10 +47,12 @@
                 занимающихся разработкой и реализацией дизайн-проектов
               </p>
             </div>
-          </section>
+          </div>
+        </section>
 
-          <section id="about-us" class="about-us">
-            <h2 class="header-about-us__text">О НАС</h2>
+        <section id="about-us" class="about-us">
+          <div class="container">
+            <h2 class="about-us__title">О НАС</h2>
             <p class="about-us__text">
               Студия основана в 2011 году. Полностью отдаемся проектированию и
               реализации интерьеров. К нам обращаются за уютом, индивидуальными
@@ -59,24 +61,25 @@
               результат.
             </p>
             <a class="about-us-btn" href="">Посмотреть услуги </a>
-          </section>
+          </div>
+        </section>
 
-          <section id="projects" class="projects">
+        <section id="projects" class="projects">
+          <div class="container">
             <h2 class="projects__text">ПРОЕКТЫ</h2>
-
             <div class="project-interior">
               <picture>
                 <source
                   media="(max-width: 500px)"
-                  srcset="resources/projects/right-bank_phone.png"
+                  srcset="/resources/projects/right-bank_phone.png"
                 />
                 <source
                   media="(max-width: 1199px)"
-                  srcset="resources/projects/right-bank_tablet.png"
+                  srcset="/resources/projects/right-bank_tablet.png"
                 />
                 <img
                   class="project-interior__image"
-                  src="resources/projects/right-bank.png"
+                  src="/resources/projects/right-bank.png"
                   alt="Диван и рядом стоящая гитара"
                 />
               </picture>
@@ -85,20 +88,19 @@
               </h3>
               <a class="project__link" href="">Подробнее →</a>
             </div>
-
             <div class="project-interior">
               <picture>
                 <source
                   media="(max-width: 500px)"
-                  srcset="resources/projects/norwegian_phone.png"
+                  srcset="/resources/projects/norwegian_phone.png"
                 />
                 <source
                   media="(max-width: 1199px)"
-                  srcset="resources/projects/norwegian_tablet.png"
+                  srcset="/resources/projects/norwegian_tablet.png"
                 />
                 <img
                   class="project-interior__image"
-                  src="resources/projects/norwegian.png"
+                  src="/resources/projects/norwegian.png"
                   alt="Журнальный столик"
                 />
               </picture>
@@ -107,20 +109,19 @@
               </h3>
               <a class="project__link" href="">Подробнее →</a>
             </div>
-
             <div class="project-interior">
               <picture>
                 <source
                   media="(max-width: 500px)"
-                  srcset="resources/projects/pinelakes_phone.png"
+                  srcset="/resources/projects/pinelakes_phone.png"
                 />
                 <source
                   media="(max-width: 1199px)"
-                  srcset="resources/projects/pinelakes_tablet.png"
+                  srcset="/resources/projects/pinelakes_tablet.png"
                 />
                 <img
                   class="project-interior__image"
-                  src="resources/projects/pinelakes.png"
+                  src="/resources/projects/pinelakes.png"
                   alt="Букет на столе"
                 />
               </picture>
@@ -129,64 +130,182 @@
               </h3>
               <a class="project__link" href="">Подробнее →</a>
             </div>
-
             <a class="project-btn" href="">Смотреть все проекты</a>
-          </section>
-          <!--
-          <section id="services" class="services">
+          </div>
+        </section>
+
+        <section id="services" class="services">
+          <div class="container">
             <div class="services-wrapper">
-              <h2>УСЛУГИ</h2>
+              <h2 class="services__title">УСЛУГИ</h2>
               <div class="services-box">
-                <div class="service-label">
-                  <img
-                    class="service-label__image"
-                    src="/resources/drawing.png"
-                    alt="Чертёж"
-                  />
-                  <p class="service-label__text">
-                    Планировочное решение — от 2500₽/м²
+                <div class="service">
+                  <div class="label-wrapper">
+                    <p class="label">от 2500₽/м²</p>
+                  </div>
+                  <picture>
+                    <source
+                      media="(max-width: 500px)"
+                      srcset="/resources/services/drawing_phone.png"
+                    />
+                    <source
+                      media="(max-width: 1199px)"
+                      srcset="/resources/services/drawing_tablet.png"
+                    />
+                    <img
+                      class="service__image"
+                      src="/resources/services/drawing.png"
+                      alt="Чертёж"
+                    />
+                  </picture>
+                  <h3 class="service__text">Планировочное решение</h3>
+                </div>
+
+                <div class="service">
+                  <div class="label-wrapper">
+                    <p class="label">от 3000₽/м²</p>
+                  </div>
+                  <picture>
+                    <source
+                      media="(max-width: 500px)"
+                      srcset="/resources/services/desing_phone.png"
+                    />
+                    <source
+                      media="(max-width: 1199px)"
+                      srcset="/resources/services/desing_tablet.png"
+                    />
+                    <img
+                      class="service__image"
+                      src="/resources/services/desing.png"
+                      alt="Палитра цветов"
+                    />
+                  </picture>
+                  <h3 class="service__text">Дизайн-проект</h3>
+                </div>
+
+                <div class="service">
+                  <div class="label-wrapper">
+                    <p class="label">от 30 000₽/мес</p>
+                  </div>
+                  <picture>
+                    <source
+                      media="(max-width: 500px)"
+                      srcset="/resources/services/layout_phone.png"
+                    />
+                    <source
+                      media="(max-width: 1199px)"
+                      srcset="/resources/services/layout_tablet.png"
+                    />
+                    <img
+                      class="service__image"
+                      src="/resources/services/layout.png"
+                      alt="Эскиз"
+                    />
+                  </picture>
+                  <h3 class="service__text">Авторский надзор</h3>
+                </div>
+
+                <div class="service">
+                  <div class="label-wrapper">
+                    <p class="label">5% от стоимости</p>
+                  </div>
+                  <picture>
+                    <source
+                      media="(max-width: 500px)"
+                      srcset="/resources/services/stock_phone.png"
+                    />
+                    <source
+                      media="(max-width: 1199px)"
+                      srcset="/resources/services/stock_tablet.png"
+                    />
+                    <img
+                      class="service__image"
+                      src="/resources/services/stock.png"
+                      alt="Стелажи с палетами"
+                    />
+                  </picture>
+                  <h3 class="service__text">Комплектация</h3>
+                </div>
+              </div>
+              <a class="services-btn" href="">Заказать услугу</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="reviews">
+          <div class="container">
+            <h2 class="reviews-title">ОТЗЫВЫ</h2>
+
+            <div class="row">
+              <div class="col">
+                <p class="reviews-subtitle">Ксения, проект 65 кв.м.</p>
+                <div class="box">
+                  <p class="box__text">
+                    Хочу искренне поблагодарить Вас за работу, проделанную на
+                    высоком уровне! Нам с мужем было очень приятно с Вами
+                    работать! Спасибо за Ваше умение правильно слышать пожелания
+                    своих клиентов и выполнять работу, которая превосходит все
+                    ожидания! Мы даже не надеялись, что на 34 кв.м. кто-то
+                    сможет нам грамотно разместить все, что мы хотим и даже
+                    больше!
+                    <br /><br />
+                    Вам удалось это просто превосходно! Нам лишь осталось
+                    воплотить красоту, которую Вы нам создали в жизнь и
+                    поделиться с Вами результатом!
                   </p>
                 </div>
-                <div class="service-label">
-                  <img
-                    class="service-label__image"
-                    src="resources/desing.png"
-                    alt="Палитра цветов"
-                  />
-                  <p class="service-label__text">Дизайн-проект — от 3000₽/м²</p>
-                </div>
-                <div class="service-label">
-                  <img
-                    class="service-label__image"
-                    src="/resources/layout.png"
-                    alt="Эскиз"
-                  />
-                  <p class="service-label__text">
-                    Авторский надзор — от 30 000₽ в месяц
+              </div>
+
+              <div class="col">
+                <p class="reviews-subtitle">Регина, проект 89 кв.м.</p>
+                <div class="box">
+                  <p class="box__text">
+                    Спасибо большое за такой классный проект! Все стильно,
+                    круто, продумано! Очень приятно было с вами работать!
+                    Спасибо, что терпели наши «хочу это, хочу то» в поисках
+                    идеального для нас ремонта. Здорово, что мы нашли такого
+                    основательного, ответственного и внимательного к деталям
+                    дизайнера!
+                    <br /><br />
+                    Хочется скорее реализовать проект и наслаждаться
+                    современной, функциональной и красивой квартирой! Будем
+                    рекомендовать Вас всем друзьям и знакомым!
                   </p>
                 </div>
-                <div class="service-label">
-                  <img
-                    class="service-label__image"
-                    src="/resources/stock.png"
-                    alt="Стелажи с палетами"
-                  />
-                  <p class="service-label__text">
-                    Комплектация — 5% от стоимости спецификации
+              </div>
+
+              <!--<div class="col">
+                <p class="reviews-subtitle">Яна, проект 120 кв.м.</p>
+                <div class="box">
+                  <p class="box__text">
+                    Хотелось бы сказать большое спасибо за проделанную работу! В
+                    задачу Марины входила разработка дизайн-проекта в
+                    минимальные сроки, и мне, конечно, не хотелось при этом
+                    потерять качество выполнения работы. Но волнения были
+                    напрасны: все вопросы решались оперативно, всегда
+                    предлагалось несколько вариантов решения, а также
+                    предоставлялись комментарии, какой способ решения будет
+                    более подходящим.
+                    <br /><br />
+                    В итоге проект был сдан в оговоренный срок, и мне просто не
+                    терпится приступить к его реализации! Проект получился очень
+                    стильным и современным! Буду рекомендовать Вас тем, кому еще
+                    предстоит это непростое дело - ремонт!
                   </p>
                 </div>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          <section class="apartment-project">
-            <div class="apartment">
-              <h3 class="apartment__text">
-                Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж
-              </h3>
-            </div>
-          </section>
-
+        <section class="apartment-project">
+          <div class="apartment">
+            <h3 class="apartment__text">
+              Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж
+            </h3>
+          </div>
+        </section>-->
+        <!--
           <section class="contacts" id="contacts">
             <img
               class="img-mobail"
@@ -207,7 +326,6 @@
               </p>
             </div>
           </section>-->
-        </div>
       </div>
     </main>
     <!--

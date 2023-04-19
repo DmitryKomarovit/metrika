@@ -1,8 +1,7 @@
-.header-about-us__text {
+.about-us__title {
   margin-bottom: 30px;
 }
 .about-us {
-  width: 1051px;
   height: 518px;
 }
 
@@ -11,8 +10,8 @@
   height: 366px;
   font-size: 45px;
   line-height: 61px;
-  text-align: left;
 }
+
 .about-us-btn {
   margin-top: 30px;
   display: inline-block;
@@ -39,7 +38,7 @@
   }
 }
 @media (max-width: 767px) {
-  .header-about-us__text {
+  .about-us__title {
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 19px;
