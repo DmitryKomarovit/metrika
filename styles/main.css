@@ -46,6 +46,7 @@ h1 {
 }
 
 h2 {
+  margin-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
   text-align: left;
@@ -101,6 +102,12 @@ h3 {
   h1 {
     font-size: 30px;
     line-height: 31.62px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
   }
 
   .label {
