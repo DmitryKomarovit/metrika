@@ -114,6 +114,11 @@
     top: 23px;
     left: 24px;
   }
+  
+  .services-btn {
+    font-size: 22px;
+    line-height: 30px;
+  }
 }
 
 @media (max-width: 500px) {
