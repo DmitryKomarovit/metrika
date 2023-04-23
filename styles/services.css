@@ -14,7 +14,6 @@
 .services-box {
   margin-bottom: 106px;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   gap: 85px 11px;
 }
@@ -60,8 +59,8 @@
   .services-wrapper {
     padding-bottom: 120px;
   }
-  .services {
-    padding: 0px 10px 0px 15px;
+  .service__image {
+    margin-bottom: 13px;
   }
 
   .services-box {
@@ -86,13 +85,15 @@
   .services-wrapper {
     padding: 80px 0px;
   }
-
-  .services {
-    padding: 0px 3px 0px 8px;
+  .services__title {
+    margin-bottom: 20px;
+  }
+  .service__image {
+    margin-bottom: 10px;
   }
 
   .services-box {
-    margin-bottom: 60px;
+    margin-bottom: 58px;
     gap: 60px;
   }
 
@@ -105,7 +106,7 @@
     line-height: 25px;
   }
 
-  .project-btn {
+  .services-btn {
     line-height: 100px;
     font-size: 22px;
   }
@@ -114,7 +115,6 @@
     top: 23px;
     left: 24px;
   }
-  
   .services-btn {
     font-size: 22px;
     line-height: 100px;
@@ -123,6 +123,6 @@
 
 @media (max-width: 500px) {
   .services-box {
-    gap: 60px;
+    gap: 56px;
   }
 }

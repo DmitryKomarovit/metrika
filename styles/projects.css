@@ -44,7 +44,10 @@
 
 @media (max-width: 1199px) {
   .project-interior {
-    margin-bottom: 80px;
+    margin-bottom: 77px;
+  }
+  .project-interior:nth-child(3) {
+    margin-bottom: 100px;
   }
   .project-interior__text {
     margin-bottom: 10px;
@@ -65,24 +68,31 @@
   .project-interior {
     margin-bottom: 49px;
   }
-  .projects__text {
-    margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 19.12px;
+  .project-interior:nth-child(3) {
+    margin-bottom: 60px;
   }
+  .projects__text {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
   .project-interior__text {
     margin-bottom: 11px;
     font-size: 18px;
     line-height: 24.59px;
   }
+
   .project-interior__image {
     margin-bottom: 20px;
     height: 250px;
   }
+
   .project__link {
     font-size: 16px;
     line-height: 22px;
   }
+
   .project-btn {
     line-height: 98px;
     font-size: 22px;

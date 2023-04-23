@@ -67,71 +67,74 @@
         <section id="projects" class="projects">
           <div class="container">
             <h2 class="projects__text">ПРОЕКТЫ</h2>
-            <div class="project-interior">
-              <picture>
-                <source
-                  media="(max-width: 500px)"
-                  srcset="resources/projects/right-bank_phone.png"
-                />
-                <source
-                  media="(max-width: 1199px)"
-                  srcset="resources/projects/right-bank_tablet.png"
-                />
-                <img
-                  class="project-interior__image"
-                  src="resources/projects/right-bank.png"
-                  alt="Диван и рядом стоящая гитара"
-                />
-              </picture>
-              <h3 class="project-interior__text">
-                ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023
-              </h3>
-              <a class="project__link" href="">Подробнее →</a>
-            </div>
-            <div class="project-interior">
-              <picture>
-                <source
-                  media="(max-width: 500px)"
-                  srcset="resources/projects/norwegian_phone.png"
-                />
-                <source
-                  media="(max-width: 1199px)"
-                  srcset="resources/projects/norwegian_tablet.png"
-                />
-                <img
-                  class="project-interior__image"
-                  src="resources/projects/norwegian.png"
-                  alt="Журнальный столик"
-                />
-              </picture>
-              <h3 class="project-interior__text">
-                ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023
-              </h3>
-              <a class="project__link" href="">Подробнее →</a>
-            </div>
-            <div class="project-interior">
-              <picture>
-                <source
-                  media="(max-width: 500px)"
-                  srcset="resources/projects/pinelakes_phone.png"
-                />
-                <source
-                  media="(max-width: 1199px)"
-                  srcset="resources/projects/pinelakes_tablet.png"
-                />
-                <img
-                  class="project-interior__image"
-                  src="resources/projects/pinelakes.png"
-                  alt="Букет на столе"
-                />
-              </picture>
-              <h3 class="project-interior__text">
-                ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022
-              </h3>
-              <a class="project__link" href="">Подробнее →</a>
-            </div>
-            <a class="project-btn" href="">Смотреть все проекты</a>
-          </div>
+            <ul class="projects-list">
+              <li class="project-interior">
+                <picture>
+                  <source
+                    media="(max-width: 500px)"
+                    srcset="/resources/projects/right-bank_phone.png"
+                  />
+                  <source
+                    media="(max-width: 1199px)"
+                    srcset="/resources/projects/right-bank_tablet.png"
+                  />
+                  <img
+                    class="project-interior__image"
+                    src="/resources/projects/right-bank.png"
+                    alt="Диван и рядом стоящая гитара"
+                  />
+                </picture>
+                <h3 class="project-interior__text">
+                  ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023
+                </h3>
+                <a class="project__link" href="">Подробнее →</a>
+              </li>
+
+              <li class="project-interior">
+                <picture>
+                  <source
+                    media="(max-width: 500px)"
+                    srcset="/resources/projects/norwegian_phone.png"
+                  />
+                  <source
+                    media="(max-width: 1199px)"
+                    srcset="/resources/projects/norwegian_tablet.png"
+                  />
+                  <img
+                    class="project-interior__image"
+                    src="/resources/projects/norwegian.png"
+                    alt="Журнальный столик"
+                  />
+                </picture>               
+                <h3 class="project-interior__text">
+                  ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023
+                </h3>
+                <a class="project__link" href="">Подробнее →</a>
+              </li>
+
+              <li class="project-interior">
+                <picture>
+                  <source
+                    media="(max-width: 500px)"
+                    srcset="/resources/projects/pinelakes_phone.png"
+                  />
+                  <source
+                    media="(max-width: 1199px)"
+                    srcset="/resources/projects/pinelakes_tablet.png"
+                  />
+                  <img
+                    class="project-interior__image"
+                    src="/resources/projects/pinelakes.png"
+                    alt="Букет на столе"
+                  />
+                </picture>
+                <h3 class="project-interior__text">
+                  ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022
+                </h3>
+                <a class="project__link" href="">Подробнее →</a>
+              </li>
+             </ul> 
+              <a class="project-btn" href="">Смотреть все проекты</a>
         </section>
 
         <section id="services" class="services">
@@ -232,13 +235,13 @@
           </div>
         </section>
 
-        <section class="">
+        <section class="section-reviews">
           <div class="container">
             <h2 class="reviews-title">ОТЗЫВЫ</h2>
 
             <ul class="reviews">
               <li class="review">
-                <p class="review-title">Ксения, проект 65 кв.м.</p>
+                <p class="review-subtitle">Ксения, проект 65 кв.м.</p>
                 <div class="review-box">
                   <p class="review__text">
                     Хочу искренне поблагодарить Вас за работу, проделанную на
@@ -257,7 +260,7 @@
               </li>
 
               <li class="review">
-                <p class="review-title">Регина, проект 89 кв.м.</p>
+                <p class="review-subtitle">Регина, проект 89 кв.м.</p>
                 <div class="review-box">
                   <p class="review__text">
                     Спасибо большое за такой классный проект! Все стильно,
@@ -275,7 +278,7 @@
               </li>
 
               <li class="review">
-                <p class="review-title">Яна, проект 120 кв.м.</p>
+                <p class="review-subtitle">Яна, проект 120 кв.м.</p>
                 <div class="review-box">
                   <p class="review__text">
                     Хотелось бы сказать большое спасибо за проделанную работу! В

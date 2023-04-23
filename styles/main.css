@@ -99,6 +99,9 @@ h3 {
     margin-bottom: 80px;
   }
 
+  section:nth-child(3) {
+    margin-bottom: 80px;
+  }
   h1 {
     font-size: 30px;
     line-height: 31.62px;
