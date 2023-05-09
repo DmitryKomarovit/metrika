@@ -8,7 +8,7 @@
 .gallery__title-wreapper {
   position: absolute;
   width: 100%;
-  top: 72px;
+  top: 70px;
   z-index: 100;
 }
 
@@ -50,13 +50,13 @@
 .gallery__control-wreapper {
   position: absolute;
   width: 100%;
-  bottom: 22%;
+  bottom: 23%;
   z-index: 10;
 }
 
 .gallery__controls {
   display: flex;
-  column-gap: 30px;
+  column-gap: 0px;
 }
 
 .gallery__control-prev,
@@ -64,9 +64,9 @@
   border: none;
   background: none;
   background-repeat: no-repeat;
-  background-position: center;
-  width: 23px;
-  height: 46px;
+  background-position: right;
+  width: 37px;
+  height: 36px;
   cursor: pointer;
 }
 
@@ -97,7 +97,7 @@
   }
   .gallery__control-wreapper {
     left: 34px;
-    bottom: 28%;
+    bottom: 29%;
   }
 
   .slide-desc {
@@ -133,7 +133,7 @@
 
   .gallery__control-wreapper {
     left: 0;
-    bottom: 44%;
+    bottom: 45%;
   }
 
   .gallery__controls {

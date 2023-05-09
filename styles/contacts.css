@@ -20,17 +20,6 @@
   padding-top: 32px;
 }
 
-.phone-number::before {
-  content: "";
-  position: absolute;
-  margin-top: -47px;
-  margin-left: -5px;
-  width: 22px;
-  height: 22px;
-  background-size: cover;
-  background-image: url(../resources/mobail.png);
-}
-
 .phone-number__text {
   letter-spacing: -0.016em;
 }
@@ -40,21 +29,33 @@
 }
 
 .phone-number__text,
-.mail__text {
+.contacts__link {
   font-size: 60px;
   line-height: 60px;
   color: #121212;
   text-decoration: none;
 }
 
+.phone-number::before,
 .mail::before {
   content: "";
   position: absolute;
-  margin-top: -41px;
+  background-size: cover;
+}
+
+.phone-number::before {
+  margin-top: -48px;
+  margin-left: -5px;
+  width: 22px;
+  height: 22px;
+  background-image: url(../resources/mobail.png);
+}
+
+.mail::before {
+  margin-top: -42px;
   margin-left: 3px;
   width: 20px;
   height: 16px;
-  background-size: cover;
   background-image: url(../resources/mail.png);
 }
 
@@ -67,7 +68,7 @@
   }
 
   .phone-number__text,
-  .mail__text {
+  .contacts__link {
     font-size: 45px;
     line-height: 60px;
   }
@@ -75,7 +76,7 @@
 
 @media (max-width: 767px) {
   .contacts-iner {
-    row-gap: 25px;
+    row-gap: 26px;
   }
 
   .contacts__text {
@@ -89,7 +90,7 @@
   }
 
   .phone-number__text,
-  .mail__text {
+  .contacts__link {
     font-size: 35px;
     line-height: 46px;
   }
