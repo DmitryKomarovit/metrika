@@ -1,7 +1,7 @@
 .contacts-iner {
   display: flex;
   flex-direction: column;
-  row-gap: 74px;
+  row-gap: 40px;
 }
 
 .contacts-wreapper {
