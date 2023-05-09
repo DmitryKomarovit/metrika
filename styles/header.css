@@ -9,19 +9,12 @@
 }
 
 .nav {
-  vertical-align: top;
-  float: right;
 }
 
 .nav__link {
-  margin-left: 57px;
-  line-height: 25px;
-  font-size: 18px;
-  color: #121212;
-  text-decoration: none;
 }
 
-.nav__link:hover,
+.header-nav__link:hover,
 .mail__text:hover,
 .phone-number__text:hover {
   opacity: 0.5;

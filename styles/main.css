@@ -3,7 +3,7 @@
 @import "../styles/footer.css";
 @import "../styles/projects.css";
 @import "../styles/services.css";
-@import "../styles/apartment.css";
+@import "../styles/gallery.css";
 @import "../styles/contacts.css";
 @import "../styles/about.css";
 @import "../styles/reviews.css";
@@ -15,6 +15,17 @@ html {
 body {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav__link {
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 h1,
@@ -118,5 +129,10 @@ h3 {
     font-size: 14px;
     line-height: 19px;
     height: 30px;
+  }
+
+  .nav__link {
+    font-size: 12px;
+    line-height: 16px;
   }
 }

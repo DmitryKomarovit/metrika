@@ -12,10 +12,10 @@
 }
 
 .services-box {
-  margin-bottom: 106px;
+  margin-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
-  gap: 85px 11px;
+  gap: 40px 11px;
 }
 
 .service {
@@ -31,7 +31,7 @@
 
 .service__image {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 }
 
 .service__text {

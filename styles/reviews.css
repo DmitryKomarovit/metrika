@@ -8,7 +8,7 @@
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
-  row-gap: 50px;
+  row-gap: 80px;
 }
 
 .review {
@@ -34,6 +34,9 @@
     margin-bottom: 25px;
     font-size: 35px;
     line-height: 48px;
+  }
+  .reviews {
+    row-gap: 51px;
   }
 
   .review__text {

@@ -72,15 +72,15 @@
                 <picture>
                   <source
                     media="(max-width: 500px)"
-                    srcset="/resources/projects/right-bank_phone.png"
+                    srcset="resources/projects/right-bank_phone.png"
                   />
                   <source
                     media="(max-width: 1199px)"
-                    srcset="/resources/projects/right-bank_tablet.png"
+                    srcset="resources/projects/right-bank_tablet.png"
                   />
                   <img
                     class="project-interior__image"
-                    src="/resources/projects/right-bank.png"
+                    src="resources/projects/right-bank.png"
                     alt="Диван и рядом стоящая гитара"
                   />
                 </picture>
@@ -94,15 +94,15 @@
                 <picture>
                   <source
                     media="(max-width: 500px)"
-                    srcset="/resources/projects/norwegian_phone.png"
+                    srcset="resources/projects/norwegian_phone.png"
                   />
                   <source
                     media="(max-width: 1199px)"
-                    srcset="/resources/projects/norwegian_tablet.png"
+                    srcset="resources/projects/norwegian_tablet.png"
                   />
                   <img
                     class="project-interior__image"
-                    src="/resources/projects/norwegian.png"
+                    src="resources/projects/norwegian.png"
                     alt="Журнальный столик"
                   />
                 </picture>               
@@ -116,15 +116,15 @@
                 <picture>
                   <source
                     media="(max-width: 500px)"
-                    srcset="/resources/projects/pinelakes_phone.png"
+                    srcset="resources/projects/pinelakes_phone.png"
                   />
                   <source
                     media="(max-width: 1199px)"
-                    srcset="/resources/projects/pinelakes_tablet.png"
+                    srcset="resources/projects/pinelakes_tablet.png"
                   />
                   <img
                     class="project-interior__image"
-                    src="/resources/projects/pinelakes.png"
+                    src="resources/projects/pinelakes.png"
                     alt="Букет на столе"
                   />
                 </picture>
@@ -301,47 +301,98 @@
           </div>
         </section>
 
-        <!--   <section class="apartment-project">
-          <div class="apartment">
-            <h3 class="apartment__text">
-              Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж
-            </h3>
-          </div>
-        </section>-->
-        <!--
-          <section class="contacts" id="contacts">
-            <img
-              class="img-mobail"
-              src="/resources/mobail.png"
-              alt="изображение телефона"
-            />
-            <div class="container-contacts">
-              <p class="contacts__text">КОНТАКТЫ</p>
-              <p class="phone-number">
-                <a class="phone-number__text" href="tel:+79358954545"
-                  >+7 935 895-45-35</a
-                >
-              </p>
-              <p class="mail">
-                <a class="mail__text" href="mailto:hello@mail.com"
-                  >hello@mail.com</a
-                >
-              </p>
+         <section class="gallery-section">
+            <div class="gallery">
+              <div class="gallery__title-wreapper">
+                <div class="container">
+                  <p class="gallery__title">ГАЛЕРЕЯ ПРОЕКТОВ</p>
+                </div>
+              </div>
+              
+                 <div class="gallery__slides">
+                  <div class="gallery__slide gallery__slide_active">
+                    <div class="gallery-box">
+                      <img class="gallery__slide-image"  src="resources/gallery/forest-landscape.png" alt="кровать в спальне">
+                    </div>
+                    <div class="container">
+                      <h3 class="slide-desc">Проект  Двухкомнтаной квартиры в ЖК Лесной Пейзаж</h3>
+                    </div>
+                  </div>
+
+                  <div class="gallery__slide">
+                    <div class="gallery-box">
+                      <img class="gallery__slide-image" src="resources/gallery/lighthouse.png" alt="кресло">
+                    </div>
+                    <div class="container">
+                      <h3 class="slide-desc">Проект гостиной в ЖК Маяк</h3>
+                    </div>
+                  </div>
+
+                  <div class="gallery__slide">
+                    <div class="gallery-box">
+                      <img class="gallery__slide-image" src="resources/gallery/private-house.png" alt="диван с подушками">
+                    </div>
+                    <div class="container">
+                      <h3 class="slide-desc">Визуализация кухни-гостиной в частном доме</h3>
+                    </div>
+                  </div>
+
+                  <div class="gallery__slide">
+                    <div class="gallery-box">
+                      <img class="gallery__slide-image" src="resources/gallery/north-wind.png" alt="стол с чашей и вазой">
+                    </div>
+                    <div class="container">
+                      <h3 class="slide-desc">Проект кухни в скандинавском стиле для ЖК Северный Ветер</h3>
+                    </div>
+                  </div>
+                </div>
+
+              <div class="gallery__control-wreapper">
+                <div class="container">
+                  <div class="gallery__controls">
+                    <button class="gallery__control-prev"></button>
+                    <button class="gallery__control-next"></button>
+                  </div>
+                </div>
+              </div>
             </div>
-          </section>-->
+        </section>
+      
+          <section class="contacts" id="contacts">
+            <div class="container">
+              <div class="contacts-iner">
+                <p class="contacts__text">КОНТАКТЫ</p>
+                  <div class="contacts-wreapper">
+                    <p class="phone-number">
+                      <a class="phone-number__text" href="tel:+79358954545"
+                        >+7 935 895-45-35</a>
+                    </p>
+                    <p class="mail">
+                      <a class="mail__text" href="mailto:hello@mail.com"
+                        >hello@mail.com</a>
+                    </p>
+                  </div>
+              </div>
+            </div>
+          </section>
       </div>
     </main>
-    <!--
+
     <footer class="footer">
       <div class="container">
-        <nav class="footer-menu">
-          <a class="footer-menu__link" href="#based">О НАС</a>
-          <a class="footer-menu__link" href="#progects">ПРОЕКТЫ</a>
-          <a class="footer-menu__link" href="#services">УСЛУГИ</a>
-          <a class="footer-menu__link" href="#contacts">КОНТАКТЫ</a>
-        </nav>
-        <p class="footer__text">Cтудия дизайна интерьера Метрика — 2023</p>
+        <div class="footer-iner">
+          <nav class="nav footer-nav">
+            <a class="nav__link" href="#based">О НАС</a>
+            <a class="nav__link" href="#progects">ПРОЕКТЫ</a>
+            <a class="nav__link" href="#services">УСЛУГИ</a>
+            <a class="nav__link" href="#contacts">КОНТАКТЫ</a>
+          </nav>        
+          <p class="footer__text">Cтудия дизайна интерьера Метрика — 2023</p>
+        </div>
+
       </div>
-    </footer>-->
+    </footer>
+    <script src="gallery.js"></script>
   </body>
 </html>
+ 
