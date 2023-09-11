@@ -20,25 +20,87 @@
   </head>
 
   <body>
-    <!--<header>
+    <header class="header">
       <div class="container">
         <div class="header-iner">
           <img class="logo" src="resources/Метрика.png" alt="логотип метрика" />
           <nav class="nav">
-            <a class="nav__link" href="#about-us">О НАС</a>
-            <a class="nav__link" href="#projects">ПРОЕКТЫ</a>
-            <a class="nav__link" href="#services">УСЛУГИ</a>
-            <a class="nav__link" href="#contacts">КОНТАКТЫ</a>
+            <ul class="nav__list">
+              <li>
+                <a class="nav__link link_black" href="#about-us">О НАС</a>
+              </li>
+              <li>
+                <a class="nav__link link_black" href="#projects">ПРОЕКТЫ</a>
+              </li>
+              <li>
+                <a class="nav__link link_black" href="#services">УСЛУГИ</a>
+              </li>
+              <li>
+                <a class="nav__link link_black" href="#contacts">КОНТАКТЫ</a>
+              </li>
+            </ul>
           </nav>
+
+          <button class="js-burger-btn burger-btn"></button>
+
+          <div class="js-burger burger">
+            <div class="burger__content">
+              <div class="burger-logo"></div>
+              <nav class="burger__nav">
+                <ul class="burger__navList">
+                  <li>
+                    <a class="burger-nav__link link_black" href="#about-us"
+                      >О НАС</a
+                    >
+                  </li>
+                  <li>
+                    <a class="burger-nav__link link_black" href="#projects"
+                      >ПРОЕКТЫ</a
+                    >
+                  </li>
+                  <li>
+                    <a class="burger-nav__link link_black" href="#services"
+                      >УСЛУГИ</a
+                    >
+                  </li>
+                  <li>
+                    <a class="burger-nav__link link_black" href="#contacts"
+                      >КОНТАКТЫ</a
+                    >
+                  </li>
+                </ul>
+
+                <div class="burger__contacts js-burger__content">
+                  <p class="burger__contacts-title">Для связи:</p>
+                  <ul class="burger__contacts-list">
+                    <li>
+                      <a class="burger__contact-tel" href="tel:+79358954535"
+                        >+7 935 895-45-35
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="burger__contacts__tg"
+                        target="_blank"
+                        href="https://t.me/BearDimy"
+                      >
+                        komarov</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
         </div>
       </div>
     </header>
-  -->
+
     <main class="main">
       <div class="main-iner">
         <section>
           <div class="container">
-            <h1 class="intro__text">
+            <h1 class="intro__title">
               Современные и стильные интерьеры для комфортной жизни
             </h1>
             <div class="inrto-image">
@@ -66,7 +128,7 @@
 
         <section id="projects" class="projects">
           <div class="container">
-            <h2 class="projects__text">ПРОЕКТЫ</h2>
+            <h2 class="projects__title">ПРОЕКТЫ</h2>
             <ul class="projects-list">
               <li class="project-interior">
                 <picture>
@@ -84,7 +146,7 @@
                     alt="Диван и рядом стоящая гитара"
                   />
                 </picture>
-                <h3 class="project-interior__text">
+                <h3 class="project-interior__subtitle">
                   ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023
                 </h3>
                 <a class="project__link" href="">Подробнее →</a>
@@ -105,8 +167,8 @@
                     src="resources/projects/norwegian.png"
                     alt="Журнальный столик"
                   />
-                </picture>               
-                <h3 class="project-interior__text">
+                </picture>
+                <h3 class="project-interior__subtitle">
                   ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023
                 </h3>
                 <a class="project__link" href="">Подробнее →</a>
@@ -128,13 +190,14 @@
                     alt="Букет на столе"
                   />
                 </picture>
-                <h3 class="project-interior__text">
+                <h3 class="project-interior__subtitle">
                   ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022
                 </h3>
                 <a class="project__link" href="">Подробнее →</a>
               </li>
-             </ul> 
-              <a class="project-btn" href="">Смотреть все проекты</a>
+            </ul>
+            <a class="full-width-button" href="#">Смотреть все проекты</a>
+          </div>
         </section>
 
         <section id="services" class="services">
@@ -227,19 +290,67 @@
                       alt="Стелажи с палетами"
                     />
                   </picture>
+
                   <h3 class="service__text">Комплектация</h3>
                 </div>
               </div>
-              <a class="services-btn" href="">Заказать услугу</a>
+
+              <button
+                class="js-btn full-width-button full-width-button_inverted"
+              >
+                Заказать услугу
+              </button>
+
+              <div class="js-popup popup">
+                <div class="js-popup__content popup__content">
+                  <div class="popup-container">
+                    <p class="order__title">Заказать услугу</p>
+                    <p class="order__subtitle">
+                      Заполните форму, мы свяжемся с вами в течение суток
+                    </p>
+
+                    <form class="order__form">
+                      <input
+                        class="input order__input"
+                        type="text"
+                        name="name"
+                        placeholder="Имя"
+                      />
+
+                      <input
+                        class="input order__input"
+                        type="email"
+                        name="email"
+                        placeholder="Электронная почта"
+                      />
+
+                      <input
+                        class="input order__input"
+                        type="tel"
+                        name="phone"
+                        placeholder="Номер телефона"
+                      />
+                    </form>
+
+                    <button
+                      class="full-width-button full-width-button_inverted full-width-button_small"
+                    >
+                      Отправить
+                    </button>
+                  </div>
+
+                  <div class="js-popup__close-btn popup__close-btn"></div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
 
-        <section class="section-reviews">
+        <section class="reviews">
           <div class="container">
             <h2 class="reviews-title">ОТЗЫВЫ</h2>
 
-            <ul class="reviews">
+            <ul class="reviews-wrapper">
               <li class="review">
                 <p class="review-subtitle">Ксения, проект 65 кв.м.</p>
                 <div class="review-box">
@@ -301,98 +412,126 @@
           </div>
         </section>
 
-         <section class="gallery-section">
-            <div class="gallery">
-              <div class="gallery__title-wreapper">
+        <section class="gallerys">
+          <div class="gallery">
+            <div class="gallery__title-wreapper">
+              <div class="container">
+                <p class="gallery__title">ГАЛЕРЕЯ ПРОЕКТОВ</p>
+              </div>
+            </div>
+
+            <div class="gallery__slides">
+              <div class="gallery__slide gallery__slide_active">
+                <div class="gallery-box">
+                  <img
+                    class="gallery__slide-image"
+                    src="resources/gallery/forest-landscape.png"
+                    alt="кровать в спальне"
+                  />
+                </div>
                 <div class="container">
-                  <p class="gallery__title">ГАЛЕРЕЯ ПРОЕКТОВ</p>
+                  <h3 class="slide-desc">
+                    Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж
+                  </h3>
                 </div>
               </div>
-              
-                 <div class="gallery__slides">
-                  <div class="gallery__slide gallery__slide_active">
-                    <div class="gallery-box">
-                      <img class="gallery__slide-image"  src="resources/gallery/forest-landscape.png" alt="кровать в спальне">
-                    </div>
-                    <div class="container">
-                      <h3 class="slide-desc">Проект  Двухкомнтаной квартиры в ЖК Лесной Пейзаж</h3>
-                    </div>
-                  </div>
 
-                  <div class="gallery__slide">
-                    <div class="gallery-box">
-                      <img class="gallery__slide-image" src="resources/gallery/lighthouse.png" alt="кресло">
-                    </div>
-                    <div class="container">
-                      <h3 class="slide-desc">Проект гостиной в ЖК Маяк</h3>
-                    </div>
-                  </div>
-
-                  <div class="gallery__slide">
-                    <div class="gallery-box">
-                      <img class="gallery__slide-image" src="resources/gallery/private-house.png" alt="диван с подушками">
-                    </div>
-                    <div class="container">
-                      <h3 class="slide-desc">Визуализация кухни-гостиной в частном доме</h3>
-                    </div>
-                  </div>
-
-                  <div class="gallery__slide">
-                    <div class="gallery-box">
-                      <img class="gallery__slide-image" src="resources/gallery/north-wind.png" alt="стол с чашей и вазой">
-                    </div>
-                    <div class="container">
-                      <h3 class="slide-desc">Проект кухни в скандинавском стиле для ЖК Северный Ветер</h3>
-                    </div>
-                  </div>
+              <div class="gallery__slide">
+                <div class="gallery-box">
+                  <img
+                    class="gallery__slide-image"
+                    src="resources/gallery/lighthouse.png"
+                    alt="кресло"
+                  />
                 </div>
-
-              <div class="gallery__control-wreapper">
                 <div class="container">
-                  <div class="gallery__controls">
-                    <button class="gallery__control-prev"></button>
-                    <button class="gallery__control-next"></button>
-                  </div>
+                  <h3 class="slide-desc">Проект гостиной в ЖК Маяк</h3>
+                </div>
+              </div>
+
+              <div class="gallery__slide">
+                <div class="gallery-box">
+                  <img
+                    class="gallery__slide-image"
+                    src="resources/gallery/private-house.png"
+                    alt="диван с подушками"
+                  />
+                </div>
+                <div class="container">
+                  <h3 class="slide-desc">
+                    Визуализация кухни-гостиной в частном доме
+                  </h3>
+                </div>
+              </div>
+
+              <div class="gallery__slide">
+                <div class="gallery-box">
+                  <img
+                    class="gallery__slide-image"
+                    src="resources/gallery/north-wind.png"
+                    alt="стол с чашей и вазой"
+                  />
+                </div>
+                <div class="container">
+                  <h3 class="slide-desc">
+                    Проект кухни в скандинавском стиле для ЖК Северный Ветер
+                  </h3>
                 </div>
               </div>
             </div>
+
+            <div class="gallery__control-wreapper">
+              <div class="container">
+                <div class="gallery__controls">
+                  <button class="gallery__control-prev"></button>
+                  <button class="gallery__control-next"></button>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
-      
-          <section class="contacts" id="contacts">
-            <div class="container">
-              <div class="contacts-iner">
-                <p class="contacts__text">КОНТАКТЫ</p>
-                  <div class="contacts-wreapper">
-                    <p class="phone-number">
-                      <a class="phone-number__text" href="tel:+79358954545"
-                        >+7 935 895-45-35</a>
-                    </p>
-                    <p class="mail">
-                      <a class="contacts__link" target="_blank" href="https://t.me/BearDimy"
-                        >komarov</a>
-                    </p>
-                  </div>
+
+        <section class="contacts" id="contacts">
+          <div class="container">
+            <div class="contacts-iner">
+              <p class="contacts__text">КОНТАКТЫ</p>
+              <div class="contacts-wreapper">
+                <p class="phone-number">
+                  <a class="phone-number__text" href="tel:+79358954535"
+                    >+7 935 895-45-35</a
+                  >
+                </p>
+                <p class="mail">
+                  <a
+                    class="contacts__link"
+                    target="_blank"
+                    href="https://t.me/BearDimy"
+                  >
+                    komarov
+                  </a>
+                </p>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
       </div>
     </main>
 
     <footer class="footer">
       <div class="container">
         <div class="footer-iner">
-          <nav class="nav footer-nav">
-            <a class="nav__link" href="#about-us">О НАС</a>
-            <a class="nav__link" href="#projects">ПРОЕКТЫ</a>
-            <a class="nav__link" href="#services">УСЛУГИ</a>
-            <a class="nav__link" href="#contacts">КОНТАКТЫ</a>
-          </nav>        
+          <nav class="footer-nav">
+            <a class="nav__link link-white" href="#about-us">О НАС</a>
+            <a class="nav__link link-white" href="#projects">ПРОЕКТЫ</a>
+            <a class="nav__link link-white" href="#services">УСЛУГИ</a>
+            <a class="nav__link link-white" href="#contacts">КОНТАКТЫ</a>
+          </nav>
           <p class="footer__text">Cтудия дизайна интерьера Метрика — 2023</p>
         </div>
-
       </div>
     </footer>
     <script src="gallery.js"></script>
+    <script src="popup.js"></script>
+    <script src="burger.js"></script>
   </body>
 </html>
- 

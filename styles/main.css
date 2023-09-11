@@ -7,6 +7,11 @@
 @import "../styles/contacts.css";
 @import "../styles/about.css";
 @import "../styles/reviews.css";
+@import "../styles/popup.css";
+@import "../styles/buttons.css";
+@import "../styles/order.css";
+@import "../styles/input.css";
+@import "../styles/burger.css";
 
 html {
   scroll-behavior: smooth;
@@ -17,15 +22,13 @@ body {
   font-weight: 400;
 }
 
-.nav {
-  display: flex;
+.body_fixed {
+  overflow: hidden;
 }
 
-.nav__link {
-  font-size: 18px;
-  line-height: 25px;
-  color: #ffffff;
-  text-decoration: none;
+button {
+  font-family: inherit;
+  cursor: pointer;
 }
 
 h1,
@@ -35,10 +38,6 @@ a,
 p,
 div {
   letter-spacing: -0.03em;
-}
-
-.main {
-  margin-top: 70px;
 }
 
 .container {
@@ -57,7 +56,6 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
   text-align: left;
@@ -75,6 +73,13 @@ h3 {
   line-height: 30px;
   background: #ad1818;
   border-radius: 5px;
+}
+
+.header-nav__link:hover,
+.contacts__link:hover,
+.phone-number__text:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1199px) {
@@ -119,7 +124,6 @@ h3 {
   }
 
   h2 {
-    margin-bottom: 20px;
     font-size: 14px;
     line-height: 19px;
   }
@@ -129,10 +133,5 @@ h3 {
     font-size: 14px;
     line-height: 19px;
     height: 30px;
-  }
-
-  .nav__link {
-    font-size: 12px;
-    line-height: 16px;
   }
 }

@@ -10,10 +10,12 @@
 }
 
 .footer-nav {
+  display: flex;
   column-gap: 60px;
 }
 
 .nav__link:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   opacity: 0.5;
 }
 
@@ -22,6 +24,10 @@
   line-height: 27px;
   color: #ffffff;
   opacity: 0.5;
+}
+
+.link-white {
+  color: white;
 }
 
 @media (max-width: 1199px) {

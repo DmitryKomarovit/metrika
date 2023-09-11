@@ -1,0 +1,29 @@
+.order__title {
+  padding-bottom: 4px;
+  font-size: 45px;
+  line-height: 61px;
+}
+
+.order__subtitle {
+  margin-bottom: 60px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.order__input {
+  width: 100%;
+  margin-top: 40px;
+}
+
+@media (max-width: 767px) {
+  .order__title {
+    padding-bottom: 11px;
+    font-size: 25px;
+    line-height: 34px;
+  }
+
+  .order__subtitle {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

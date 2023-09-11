@@ -4,7 +4,8 @@
   line-height: 61px;
 }
 
-.reviews {
+.reviews-wrapper {
+  margin-top: 29px;
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
@@ -35,8 +36,10 @@
     font-size: 35px;
     line-height: 48px;
   }
-  .reviews {
-    row-gap: 51px;
+
+  .reviews-wrapper {
+    margin-top: 35px;
+    row-gap: 48px;
   }
 
   .review__text {
@@ -68,13 +71,16 @@
 }
 
 @media (max-width: 500px) {
+  .reviews-wrapper {
+    margin-top: 24px;
+    row-gap: 76px;
+  }
+
   .review:last-child:nth-child(2n + 1) {
     width: 100%;
   }
+
   .review {
     width: 100%;
-  }
-  .reviews {
-    row-gap: 77px;
   }
 }

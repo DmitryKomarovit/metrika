@@ -1,4 +1,4 @@
-.intro__text {
+.intro__title {
   margin-bottom: 30px;
   width: 956px;
 }
@@ -21,7 +21,7 @@
 }
 
 @media (max-width: 1199px) {
-  .intro__text {
+  .intro__title {
     width: 802px;
   }
   .inrto-image {
@@ -38,7 +38,7 @@
 }
 
 @media (max-width: 767px) {
-  .intro__text {
+  .intro__title {
     margin-bottom: 25px;
     width: 100%;
   }
