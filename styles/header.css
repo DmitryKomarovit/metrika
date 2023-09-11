@@ -23,6 +23,7 @@
 
 .nav__link {
   display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
   font-size: 18px;
   line-height: 25px;
   text-decoration: none;
